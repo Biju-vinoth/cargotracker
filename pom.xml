@@ -17,7 +17,7 @@
         <netbeans.hint.j2eeVersion>1.7</netbeans.hint.j2eeVersion>
         <netbeans.hint.deploy.server>gfv3ee6</netbeans.hint.deploy.server>
         <webapp.databaseTempDir>/tmp</webapp.databaseTempDir>
-        <webapp.graphTraversalUrl>http://localhost:8080/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
+        <webapp.graphTraversalUrl>http://10.87.3.47:8081/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
     </properties>
 
     <!-- We need to use the PrimeFaces repository -->
@@ -186,7 +186,7 @@
                 <activeByDefault>false</activeByDefault>
             </activation>
             <properties>
-                <webapp.graphTraversalUrl>http://localhost:7001/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
+                <webapp.graphTraversalUrl>http://10.87.3.47:8081/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
             </properties>
             <dependencies>
                 <dependency>
